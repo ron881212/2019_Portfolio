@@ -25,8 +25,7 @@ li {
    display: inline;
    border-right: 1px solid #dddddd;
    padding: 22px;
-   /* padding-left: 5%; */
-   /* padding-right: 5%; */
+   color: white;
 }
 
 li:last-child {
@@ -39,9 +38,12 @@ h2 {
     margin-bottom: 22px;
 }
 
-.about-cards {
+.cards {
     /* align-content: center; */
     text-align: center;
     margin: 18px;
 }
 
+.hidden {
+    display: none;
+}

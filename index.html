@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ronald Glover</title>
+    <!-- BOOTSTRAPS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+    crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- MY STYLES -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- JQUERY CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- MY SCRIPT -->
     <script src="assets/js/app.js"></script>
 </head>
 
@@ -17,50 +24,138 @@
         <nav class="navbar p-0">
             <h1>Ronald Glover</h1>
             <ul>
-                <li><a href="https://ron881212.github.io/Responsive-Portfolio/index.html">About</a></li>
-                <li><a href="https://ron881212.github.io/Responsive-Portfolio/portfolio.html">Portfolio</a></li>
-                <li><a href="https://ron881212.github.io/Responsive-Portfolio/contact.html">Contact</a></li>
-
-
+                <li id="about">About</li>
+                <li id="portfolio">Portfolio</li>
+                <li id="contact">Contact</li>
             </ul>
         </nav>
     </header>
     <img src="assets/images/IMG_1333.jpg" class="rounded rounded-circle mx-auto d-block" alt="mypic">
     <h2>About Me</h2>
 
-    <div class="about-cards row">
-        <div class="card text-white bg-primary mb-3 mx-auto col-md-6">
-            <div class="card-header">Header</div>
-            <div class="card-body">
-              <h5 class="card-title">Primary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card text-white bg-secondary mx-auto col-md-6">
-            <div class="card-header">Header</div>
-            <div class="card-body">
-              <h5 class="card-title">Secondary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-    </div> 
+    <!-- ABOUT ME CONTENT -->
 
-    <div class="about-cards row">
-          <div class="card text-white bg-success mb-3 mx-3 mx-auto col-md-6">
-            <div class="card-header">Header</div>
+    <div id="aboutContent">
+
+    <div class="cards row">
+        <div class="col-md-6">
+        <div class="card text-white bg-primary mb-3 mx-auto">
+            <div class="card-header">Journey <i class="fas fa-hiking"></i></i></div>
             <div class="card-body">
-              <h5 class="card-title">Success card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">One small step. Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
             </div>
-          </div>
-          <div class="card text-white bg-danger mb-3 mx-3 mx-auto col-md-6">
-            <div class="card-header">Header</div>
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div class="card text-white bg-secondary mb-3 mx-auto">
+            <div class="card-header">Coder <i class="fas fa-laptop"></i></div>
             <div class="card-body">
-              <h5 class="card-title">Danger card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
             </div>
-          </div>
-    </div>     
+        </div>
+    </div>
+    </div>
+
+    <div class="cards row">
+        <div class="col-md-6">
+        <div class="card text-white bg-success mb-3 mx-3 mx-auto">
+            <div class="card-header">Activities <i class="fas fa-chess"></i></div>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div class="card text-white bg-danger mb-3 mx-3 mx-auto">
+            <div class="card-header">Goals <i class="fas fa-flag-checkered"></i></div>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- PORTFOLIO CONTENT -->
+
+    <div id="portfolioContent" class="hidden">
+
+    <div class="cards row">
+        <div class="col-md-6">
+        <div class="card text-center mb-3">
+            <div class="card-header bg-success">
+                <i class="fas fa-gamepad"></i>
+                Starwars RPG
+            </div>
+            <div class="card-body">
+                <img src="assets/images/sw-screenshot.png" class="card-img-top" style="max-height: 257px"/>
+                
+                <p>Breif discription</p>
+            </div>
+            <div class="card-footer bg-success">
+                <a href="https://ron881212.github.io/unit-4-game" target="_blank"><i class="fas fa-gamepad"></i> Play Now</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-6">
+        <div class="card text-center mb-3">
+            <div class="card-header bg-danger">
+                <i class="fas fa-puzzle-piece"></i>
+                America Horror Story Trivia
+            </div>
+            <div class="card-body">
+                <img src="assets/images/AHS-trivia.png" class="card-img-top" style="max-height: 257px"/>
+                <p>Breif discription</p>
+            </div>
+            <div class="card-footer bg-danger">
+                <a href="https://ron881212.github.io/TriviaGame" target="_blank"><i class="fas fa-puzzle-piece"></i> Guess Now</a>
+            </div>
+        </div>
+        </div>
+    </div>
+        
+    <div class="cards row">
+        <div class="col-md-6">
+        <div class="card text-center mb-3">
+            <div class="card-header bg-success">
+                <i class="fas fa-basketball-ball"></i>
+                Basketball Ballers
+            </div>
+            <div class="card-body">
+                <img src="assets/images/Screen Shot 2019-01-18 at 5.33.26 AM.png" class="card-img-top" style="max-height: 257px"/>
+                
+                <p>Breif discription</p>
+            </div>
+            <div class="card-footer bg-success">
+                <a href="https://samtaub.github.io/Project-1" target="_blank"><i class="fas fa-basketball-ball"></i> Search Now</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-6">
+        <div class="card text-center mb-3">
+            <div class="card-header bg-danger">
+                    <i class="fas fa-subway"></i>
+                Train Scheduler
+            </div>
+            <div class="card-body">
+                <img src="assets/images/TrainFB.png" class="card-img-top" style="max-height: 257px"/>
+                <p>Breif discription</p>
+            </div>
+            <div class="card-footer bg-danger">
+                <a href="https://ron881212.github.io/Train-Scheduler" target="_blank"><i class="fas fa-subway"></i> Travel Now</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    </div>
 </body>
 
 </html>
