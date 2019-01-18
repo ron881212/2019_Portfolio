@@ -1,0 +1,47 @@
+h1 {
+    float: none;
+    position: static;
+    display: block;
+    top: -75px;
+    margin: 0;
+    z-index: 4;
+    width: 100%;
+    padding: 22px;
+    /* color: white; */
+    text-align: center;
+    background-color: aqua;
+}
+
+ul {
+    text-align: center;
+    width: 100%;
+    padding: 22px;;
+    margin-top: 0;
+    background-color: blueviolet
+}
+
+li {
+   float: none;
+   display: inline;
+   border-right: 1px solid #dddddd;
+   padding: 22px;
+   /* padding-left: 5%; */
+   /* padding-right: 5%; */
+}
+
+li:last-child {
+    border-right: none;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.about-cards {
+    /* align-content: center; */
+    text-align: center;
+    margin: 18px;
+}
+
