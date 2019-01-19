@@ -47,3 +47,8 @@ h2 {
 .hidden {
     display: none;
 }
+
+#contactContent {
+    text-align: center;
+    font-size: 60px;
+}
