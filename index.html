@@ -24,14 +24,14 @@
         <nav class="navbar p-0">
             <h1>Ronald Glover</h1>
             <ul class="mb-3">
-                <li id="about">About</li>
-                <li id="portfolio">Portfolio</li>
-                <li id="contact">Contact</li>
+                <a href="#aboutContent"><li id="about">About</li></a>
+                <a href="#portfolio"><li id="portfolio">Portfolio</li></a>
+                <a href="#contact"><li id="contact">Contact</li></a>
             </ul>
         </nav>
     </header>
     <img src="assets/images/IMG_1333.jpg" class="rounded rounded-circle mx-auto d-block" alt="mypic">
-    <h2>About Me</h2>
+    <h2 class="text">About Me</h2>
 
     <!-- ABOUT ME CONTENT -->
 
@@ -39,7 +39,7 @@
 
     <div class="cards row">
         <div class="col-md-6">
-        <div class="card text-white bg-primary mb-3 mx-auto">
+        <div class="card text-white mb-3 mx-auto card1">
             <div class="card-header">Journey <i class="fas fa-hiking"></i></i></div>
             <div class="card-body">
                 <p class="card-text">One small step. Some quick example text to build on the card title and make up the bulk of the
@@ -48,7 +48,7 @@
         </div>
         </div>
         <div class="col-md-6">
-        <div class="card text-white bg-secondary mb-3 mx-auto">
+        <div class="card text-white mb-3 mx-auto card2">
             <div class="card-header">Coder <i class="fas fa-laptop"></i></div>
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -60,7 +60,7 @@
 
     <div class="cards row">
         <div class="col-md-6">
-        <div class="card text-white bg-success mb-3 mx-3 mx-auto">
+        <div class="card text-white mb-3 mx-3 mx-auto card3">
             <div class="card-header">Activities <i class="fas fa-bicycle"></i></div>
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -69,7 +69,7 @@
         </div>
         </div>
         <div class="col-md-6">
-        <div class="card text-white bg-danger mb-3 mx-3 mx-auto">
+        <div class="card text-white mb-3 mx-3 mx-auto card4">
             <div class="card-header">Goals <i class="fas fa-flag-checkered"></i></div>
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -88,7 +88,7 @@
     <div class="cards row">
         <div class="col-md-6">
         <div class="card text-center mb-3">
-            <div class="card-header bg-success">
+            <div class="card-header card1">
                 <i class="fas fa-gamepad"></i>
                 Starwars RPG
             </div>
@@ -96,7 +96,7 @@
                 <img src="assets/images/sw-screenshot.png" class="card-img-top" style="max-height: 257px"/>
             </div>
             <div><a href="https://github.com/ron881212/unit-4-game" target="_blank"><i class="fas fa-laptop-code"></i> View Code</a></div>
-            <div class="card-footer bg-success">
+            <div class="card-footer card1">
                 <a href="https://ron881212.github.io/unit-4-game" target="_blank"><i class="fas fa-gamepad"></i> Play Now</a>
             </div>
         </div>
@@ -104,7 +104,7 @@
 
         <div class="col-md-6">
         <div class="card text-center mb-3">
-            <div class="card-header bg-danger">
+            <div class="card-header card2">
                 <i class="fas fa-puzzle-piece"></i>
                 America Horror Story Trivia
             </div>
@@ -112,7 +112,7 @@
                 <img src="assets/images/AHS-trivia.png" class="card-img-top" style="max-height: 257px"/>
             </div>
             <div><a href="https://github.com/ron881212/TriviaGame" target="_blank"><i class="fas fa-laptop-code"></i> View Code</a></div>
-            <div class="card-footer bg-danger">
+            <div class="card-footer card2">
                 <a href="https://ron881212.github.io/TriviaGame" target="_blank"><i class="fas fa-puzzle-piece"></i> Guess Now</a>
             </div>
         </div>
@@ -122,7 +122,7 @@
     <div class="cards row">
         <div class="col-md-6">
         <div class="card text-center mb-3">
-            <div class="card-header bg-success">
+            <div class="card-header card3">
                 <i class="fas fa-basketball-ball"></i>
                 NBA Ballers
             </div>
@@ -130,7 +130,7 @@
                 <img src="assets/images/Screen Shot 2019-01-18 at 5.33.26 AM.png" class="card-img-top" style="max-height: 257px"/>
             </div>
             <div><a href="https://github.com/SamTaub/Project-1" target="_blank"><i class="fas fa-laptop-code"></i> View Code</a></div>
-            <div class="card-footer bg-success">
+            <div class="card-footer card3">
                 <a href="https://samtaub.github.io/Project-1" target="_blank"><i class="fas fa-basketball-ball"></i> Search Now</a>
             </div>
         </div>
@@ -138,7 +138,7 @@
 
         <div class="col-md-6">
         <div class="card text-center mb-3">
-            <div class="card-header bg-danger">
+            <div class="card-header card1">
                     <i class="fas fa-subway"></i>
                 Train Scheduler
             </div>
@@ -146,7 +146,7 @@
                 <img src="assets/images/TrainFB.png" class="card-img-top" style="max-height: 257px"/>
             </div>
             <div><a href="https://github.com/ron881212/Train-Scheduler" target="_blank"><i class="fas fa-laptop-code"></i> View Code</a></div>
-            <div class="card-footer bg-danger">
+            <div class="card-footer card1">
                 <a href="https://ron881212.github.io/Train-Scheduler" target="_blank"><i class="fas fa-subway"></i> Travel Now</a>
             </div>
         </div>
@@ -159,16 +159,19 @@
         <a href="https://github.com/ron881212" target="_blank"><i class="fab fa-github-square contactInfo"></i></a>
         <a href="https://www.linkedin.com/in/ronald-glover/" target="_blank"><i class="fab fa-linkedin contactInfo"></i></a>
         <a href="https://twitter.com/jsRon2?lang=en" target="_blank"><i class="fab fa-twitter-square contactInfo"></i></a>
-        <i class="fas fa-envelope-square contactInfo"></i>
-        <i class="fas fa-phone-square contactInfo"></i>
+        <a href="#contact"><i class="fas fa-envelope-square contactInfo"></i></a>
+        <a href="#contact"><i class="fas fa-phone-square contactInfo"></i></a>
         <!-- <a href=""><i class="far fa-file-alt contactInfo" data-info="View My Resume"></i></a> -->
 
             <div id="contactInfo">
-                <h4>ron881212@gmail.com</h4>
-                <h5>(267)584-8591</h5>
+                <h4 class="text">ron881212@gmail.com</h4>
+                <h5 class="text">(267)584-8591</h5>
             </div>
     </div>
 
+    <footer class="page-footer font-small" style="background-color: #112F41;">
+        <div class="text-center py-3 font-weight-light" style="color: #f0b042;">Copyright&copy;</div>
+    </footer>
 
 </body>
 

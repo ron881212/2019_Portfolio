@@ -21,10 +21,5 @@ $(document).on("click", "#contact", e=> {
     $("h2").text("Contact Me");
 });
 
-// $(document).mouseover(".contactInfo", e=> {
-//     $("#contactInfo").text("testing");
-//     console.log($(this).attr("data-info"));
-    
-// })
 
 
